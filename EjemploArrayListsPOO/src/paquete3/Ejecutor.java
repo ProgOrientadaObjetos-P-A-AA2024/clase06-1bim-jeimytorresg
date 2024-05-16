@@ -59,6 +59,7 @@ public class Ejecutor {
         
         Venta venta = new Venta(computadores);
         venta.establecerValorVenta();
+        System.out.println("-----------------------------------");
         System.out.printf("%s\n", venta);
     }
 }
