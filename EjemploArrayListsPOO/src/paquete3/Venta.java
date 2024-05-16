@@ -53,7 +53,7 @@ public class Venta {
                     obtenerComputadoras().get(i).obtenerProcesador().obtenerMarca()
                     ,obtenerComputadoras().get(i).obtenerProcesador().obtenerCosto(),
                     obtenerComputadoras().get(i).obtenerMemoria().obtenerMarca(),
-                    obtenerComputadoras().get(i).obtenerProcesador().obtenerCosto(),
+                    obtenerComputadoras().get(i).obtenerMemoria().obtenerCosto(),
                     obtenerComputadoras().get(i).obtenerCostoComputador());
         }
         cadena = String.format("%sValor de la Venta: %.2f\n",cadena
