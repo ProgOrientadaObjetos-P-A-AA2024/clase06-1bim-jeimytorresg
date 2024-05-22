@@ -25,7 +25,7 @@ public class ArchivoLectura {
         rutaArchivo = String.format("data/%s", nombreArchivo);
 
         try {
-            entrada = new Scanner(new File(rutaArchivo));
+            entrada = new Scanner(new File(rutaArchivo));// scanner que lee el archivo
             // entrada = new Scanner(System.in);
             // entrada = new Scanner(f);
         } // fin de try
@@ -78,7 +78,7 @@ public class ArchivoLectura {
 
     public ArrayList<Profesor> obtenerLista() {
 
-        return lista;
+        return lista;// devuelve la lista de profesores
     }
 
     public void cerrarArchivo() {
